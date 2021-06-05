@@ -89,7 +89,8 @@
     </build>
   <distributionManagement>
    <snapshotRepository>
-      <id>nexus-snapshots</id>
+      <id>deploymentRepo</id>
+      <name>snapshot releases</name>
       <url>http://ec2-3-141-100-59.us-east-2.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
    </snapshotRepository>
   </distributionManagement>
